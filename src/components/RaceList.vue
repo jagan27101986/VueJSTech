@@ -68,6 +68,8 @@ export default {
             values:dataObject[x]
         })});
 
+      } else {
+          console.log('No Data found for the API or HTTP Error')
       }
      },(err) => {
         console.log(err);
